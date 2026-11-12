@@ -1,0 +1,20 @@
+{
+  "name": "design-probe",
+  "private": true,
+  "type": "module",
+  "description": "Numeric visual verification: capture, measure, diff, attribute, assert, verdict.",
+  "scripts": {
+    "test:unit": "node test/verdict.test.mjs && node test/pair.test.mjs && node test/attribute.test.mjs && node test/image-spec.test.mjs && node test/text-width.test.mjs",
+    "test:checks": "node test/checks.test.mjs",
+    "compare": "node run.mjs",
+    "spec": "node spec.mjs",
+    "image-spec": "node image-spec.mjs",
+    "text-width": "node text-width.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.65.0"
+  },
+  "license": "MIT",
+  "version": "0.1.0",
+  "author": "linggan"
+}
