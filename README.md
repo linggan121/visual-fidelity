@@ -47,5 +47,4 @@ visual-fidelity/
 
 ## 许可证
 MIT，见 [LICENSE](./LICENSE)
-```
 
